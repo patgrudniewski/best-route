@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 from best_route import best_route
 
 assert best_route((
@@ -32,4 +34,4 @@ assert best_route((
     (2, 9),
     (8, 8, 0),
     (4, 4, 4, 9)
-)) == 22))))
+)) == 22
